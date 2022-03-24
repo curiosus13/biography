@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-user-select: none; 
+    -moz-user-select: none;    
+    -ms-user-select: none;     
+    -o-user-select: none;
+    user-select: none;    
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    position: fixed;
+    width: 90px;
+    height: 190px;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.main-primary {
+    background-color: rgb(8, 3, 20);
+    background-image: url(https://wallpapercave.com/wp/wp4820378.jpg);
+}
+
+.card-div-a {
+    background-color: rgb(7, 33, 90);
+    padding: 5px;
+    border-radius: 5px;
+    width: 70px;
+    height: 70px;
+    margin-top: 150px;
+    transition: 500ms;
+}
+
+.card-div-b {
+    background-color: rgb(78, 4, 60);
+    padding: 5px;
+    border-radius: 5px;
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    transition: 500ms;
+}
+
+.card-div-a:hover {
+    background-color: rgb(17, 64, 167);
+    box-shadow: 0 0 1em rgb(0, 153, 255);
+}
+
+.card-div-b:hover {
+    background-color: rgb(168, 18, 131);
+    box-shadow: 0 0 1em rgb(247, 0, 255);
+}
+
+.icon-social {
+    width: 60px;
+}
+
+.main-primary {
+    color: white;
+}
+
+.information-kyopil {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.information-kyopil h1 {
+    font-size: 90px;
+    text-decoration: underline;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+.information-kyopil h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgba(245, 245, 245, 0.884);
+    background-color: rgba(0, 0, 0, 0.26);
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+.button-contact--primary {
+    background-color: aliceblue;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    margin-top: 10px;
+    transition: 500ms;
+}
+
+.button-contact--primary:hover {
+    background-color: red;
+    color: white;
+    box-shadow: 0 0 3em rgb(59, 18, 18);
+}
+
+.icon-down {
+    width: 50px;
+    margin-bottom: 150px;
+    transition: 300ms;
+    border-radius: 19px;
+    margin-top: 250px;
+}
+
+.icon-down:hover {
+    border-radius: 25px;
+    box-shadow: 0 0 0 5px #0089d5;
+    padding: 10px;
+}
+
+.main-secundary {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+    border-top: solid 1px whitesmoke;
+    padding-top: 150px;
+    margin: auto;
+    padding-left: 100px;
+    border-bottom: solid 1px whitesmoke;
+    overflow:hidden;
+    padding-bottom: 150px;
+}
+
+.img-card {
+    width: 250px;
+    float: left;
+    margin: 10px;
+    transition: 500ms;
+    box-shadow: 0 0 0 1px rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.img-card:hover {
+    box-shadow: 0 0 2em rgba(202, 202, 202, 0.473);
+}
+
+.information-server {
+    width: 270px;
+    float: left;
+    padding: 10px;
+}
+
+.information-server h1 {
+    margin-bottom: 15px;
+}
+
+.information-server h4 {
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.781);
+}
+
+.button-join--server {
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+    width: 183px;
+    height: 30px;
+    color: black;
+    cursor: pointer;
+    transition: 500ms;
+    margin-bottom: 10px;
+}
+
+.button-join--server:hover {
+    background-color: red;
+    color: white;
+}
+
+footer {
+    overflow: hidden;
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+}
